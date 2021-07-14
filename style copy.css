@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+}
+
+.circle {
+  background-color: rgb(156, 222, 140);
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  animation: breathe ease 13s infinite;
+  position: absolute;
+  z-index: -1;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+p {
+  align-items: center;
+  text-align: center;
+}
+
+body{
+  margin: 400px auto;
+  color: black;
+  align-items: center;
+  display: block;
+  font-size: 40px;
+  max-width: 1000px;
+  z-index: 10;
+  position: inherit;
+  font-family: monospace;
+  background-color: rgb(231, 156, 58);
+  font-style: italic;
+}
+
+@keyframes breathe {
+  0%, 100% {transform: scale(.7) rotate(90deg);}
+  50% {transform: scale(2.5) rotate(90deg);}
+  53% {transform: scale(2.5) rotate(90deg);}
+}
+
+button {
+  background-color: rgb(247, 59, 166);
+  font-size: 1.2rem;
+  position: absolute;
+  margin: 0 auto;
+  z-index: 10;
+}
+
+button:hover{
+  background-color: rgb(174, 205, 35);
+}
+
+button:active {
+  background-color: rgb(195, 50, 198);
+}
+
+.text {
+  display: none;
+}
+
+.text2 {
+  display: none;
+}
+
+.text3 {
+  display: none;
+}
+
+.text4 {
+  display: none;
+}
+
+.text5 {
+  display: none;
+}
+
+.text6 {
+  display: none;
+}
+
+.text7 {
+  display: none;
+}
+
+.text8 {
+  display: none;
+}
+
+.text9 {
+  display: none;
+}
+
+.text10 {
+  display: none;
+}
+
+.text11 {
+  display: none;
+}
+
+.text12 {
+  display: none;
+}
+
+.text13 {
+  display: none;
+}
+
+.text14 {
+  display: none;
+}
+
+.text15 {
+  display: none;
+}
+
+.text16 {
+  display: none;
+}
+
+.text17 {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+.blob {
+  position: absolute;
+  top: 0;
+  left: 340px;
+  fill: rgb(165, 203, 249);
+  width: 1000px;
+  z-index: -1;
+  animation: breathe ease 13s infinite;
+  display: block;
+}
