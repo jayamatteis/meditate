@@ -132,6 +132,10 @@ button:active {
   display: none;
 }
 
+.text20 {
+  display: none;
+}
+
 .active {
   display: block;
 }
