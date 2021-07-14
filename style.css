@@ -124,6 +124,10 @@ button:active {
   display: none;
 }
 
+.text18 {
+  display: none;
+}
+
 .active {
   display: block;
 }
