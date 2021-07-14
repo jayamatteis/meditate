@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- <div class="circle"></div> -->
+
+<div class="blob">
+  <!-- This SVG is from https://codepen.io/Ali_Farooq_/pen/gKOJqx -->
+  <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <path d="M23.6,-36.1C33.1,-35.5,44.8,-34.1,47,-27.9C49.2,-21.8,41.9,-10.9,38.5,-2C35.1,6.9,35.5,13.8,34.3,21.7C33,29.5,30,38.2,24,45.5C18,52.9,9,58.8,-1.6,61.7C-12.3,64.6,-24.6,64.3,-33.8,58.7C-42.9,53.2,-48.8,42.4,-46.2,31.7C-43.6,21.1,-32.4,10.5,-35.1,-1.5C-37.8,-13.6,-54.3,-27.2,-57.9,-39.7C-61.5,-52.1,-52.3,-63.4,-40.5,-62.7C-28.7,-61.9,-14.4,-49.1,-3.6,-42.8C7.1,-36.5,14.2,-36.7,23.6,-36.1Z" transform="translate(100 100)" />
+  </svg>
+</div>
+
+  <p class="text active">( click me )</p>
+
+  <p class="text2">keep clicking to navigate through a short guided meditation :)</p>
+
+  <p class="text3">find a seating position that is comfortable for you, where your body faces minimal strain.</p>
+
+  <p class="text4">relax each muscle beginning with your toes and working your way up to the top of your head.</p>
+
+  <p class="text5">relax your shoulders, your jaw, your tongue, your eyelids, and your eyebrows. </p>
+
+  <p class="text6">start noticing your breath.</p>
+
+  <p class="text7">breathe 3 times to the rhythm of this blob, inhaling through your nose as it expands, and exhaling out through your mouth as it contracts. feel your muscles soften as you let the air go.</p>
+
+  <p class="text8">breathe in any stressors you've faced today, and breathe out as you let them go for these few minutes. close your eyes for a bit, and simply notice the sensations around you. open your eyes and click once you're done.</p>
+
+  <p class="text9">for now, try to silence the past and the future.</p>
+
+  <p class="text10">feelings about what has happened and what might happen can cloud your thoughts. just allow yourself to be alone with your mind and your body at this moment.</p>
+
+  <p class="text11">rather than a cloud of stress, imagine a beam of warmth traveling gently through each part of your body as you take this time to settle.</p>
+
+  <p class="text12">remain in this state for as long as you wish, and click when finished.</p>
+
+  <p class="text13">mindful relaxation can serve as a much-needed physical and mental pause.</p>
+
+  <p class="text14">it certainly cannot hurt to take a few minutes out of each day to acknowledge your living breathing body, and realize that everyday tasks can wait.</p>
+
+  <p class="text15">you don't have to feel guilty when you are not busy. there will always be other things you "could" or "should" be doing, but there is no way to live your life as a human being without taking time to reset.</p>
+
+  <p class="text16">if you're constantly occupied with tasks, how could you possibly put enough energy into yourself and the things you love?</p>
+
+  <p class="text17">thank you for visiting, come back soon :)</p>
+
+
+
+  <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+
+  <script>
+    $( ".text" ).click(function() {
+      $('.text2').addClass('active');
+      $('.text').removeClass('active');
+    });
+
+    $( ".text2" ).click(function() {
+      $('.text3').addClass('active');
+      $('.text2').removeClass('active');
+    });
+
+    $( ".text3" ).click(function() {
+      $('.text4').addClass('active');
+      $('.text3').removeClass('active');
+    });
+
+    $( ".text4" ).click(function() {
+      $('.text5').addClass('active');
+      $('.text4').removeClass('active');
+    });
+
+    $( ".text5" ).click(function() {
+      $('.text6').addClass('active');
+      $('.text5').removeClass('active');
+    });
+
+    $( ".text6" ).click(function() {
+      $('.text7').addClass('active');
+      $('.text6').removeClass('active');
+    });
+
+    $( ".text7" ).click(function() {
+      $('.text8').addClass('active');
+      $('.text7').removeClass('active');
+    });
+
+    $( ".text8" ).click(function() {
+      $('.text9').addClass('active');
+      $('.text8').removeClass('active');
+    });
+
+    $( ".text9" ).click(function() {
+      $('.text10').addClass('active');
+      $('.text9').removeClass('active');
+    });
+
+    $( ".text10" ).click(function() {
+      $('.text11').addClass('active');
+      $('.text10').removeClass('active');
+    });
+
+    $( ".text11" ).click(function() {
+      $('.text12').addClass('active');
+      $('.text11').removeClass('active');
+    });
+
+    $( ".text12" ).click(function() {
+      $('.text13').addClass('active');
+      $('.text12').removeClass('active');
+    });
+
+    $( ".text13" ).click(function() {
+      $('.text14').addClass('active');
+      $('.text13').removeClass('active');
+    });
+
+    $( ".text14" ).click(function() {
+      $('.text15').addClass('active');
+      $('.text14').removeClass('active');
+    });
+
+    $( ".text15" ).click(function() {
+      $('.text16').addClass('active');
+      $('.text15').removeClass('active');
+    });
+
+    $( ".text16" ).click(function() {
+      $('.text17').addClass('active');
+      $('.text16').removeClass('active');
+    });
+
+    $( ".text17" ).click(function() {
+      $('.text').addClass('active');
+      $('.text17').removeClass('active');
+    });
+  </script>
+
+</body>
+</html>
